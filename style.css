@@ -421,6 +421,10 @@ h6 {
     padding-left: 20px;
 }
 
+#gh, #dc, #tw, #yt {
+    cursor: pointer;
+}
+
 #gh::before {
     display: inline-block;
     content: "";
