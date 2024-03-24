@@ -12,9 +12,11 @@ dc.addEventListener("click", () => {
 })
 
 tw.addEventListener("click", () => {
-    window.open("https://www.google.com/", "_blank")
+    // window.open("https://www.google.com/", "_blank")
+    alert("Coming soon!")
 })
 
 yt.addEventListener("click", () => {
-    window.open("https://www.google.com/", "_blank")
+    // window.open("https://www.google.com/", "_blank")
+    alert("Coming soon!")
 })
