@@ -586,3 +586,16 @@ input:focus, textarea:focus {
         width: 98%;
     }
 }
+
+/*--------------- project page --------------- */
+
+.prev, .next {
+    color: grey;
+}
+
+.prev p {
+    text-align: left;
+}
+.next p {
+    text-align: right;
+}
