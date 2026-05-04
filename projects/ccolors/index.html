@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Posts &ndash; muwat blog</title>
+    <head><title>ccolors &ndash; muwat blog</title>
 <meta name="description" content="backend developer &amp; software development student">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,16 +27,13 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://muwat0.github.io/posts/index.xml" title="muwat blog">
 
 
 
-<meta property="og:title" content="Posts &ndash; muwat blog" />
-<meta property="og:url" content="https://muwat0.github.io/posts/" />
+<meta property="og:title" content="ccolors &ndash; muwat blog" />
+<meta property="og:url" content="https://muwat0.github.io/projects/ccolors/" />
 
-  
-    <meta property="og:description" content="backend developer &amp; software development student"/> 
-  
+  <meta property="og:description" content="An application to create color schemes from images written in C&#43;&#43; &ndash; "/> 
 
 <meta property="og:locale" content="en-us" />
 <meta property="og:image" content="" /></head>
@@ -51,9 +48,9 @@
     
     <li class="main-nav__item"><a class="nav-main-item" href="https://muwat0.github.io/about/" title="">About</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item active" href="https://muwat0.github.io/posts/" title="Posts">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item" href="https://muwat0.github.io/posts/" title="Posts">Posts</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="https://muwat0.github.io/projects/" title="Projects">Projects</a></li>
+    <li class="main-nav__item"><a class="nav-main-item active" href="https://muwat0.github.io/projects/" title="Projects">Projects</a></li>
     
     </ul>
 </nav>
@@ -61,17 +58,42 @@
 </header>
 
             <section class="page__body">
-    <h1 id="posts">Posts</h1>
+    <header class="content__header">
+        <h1>ccolors</h1>
+    </header>
+    <div class="content__body">
+        <p><a href="https://github.com/muwat0/ccolors">github</a></p>
+<p>Small CLI tool to extract dominant color palettes from images.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>JPEG / PNG support</li>
+<li>Terminal color preview</li>
+<li>HEX output</li>
+<li>JSON export</li>
+<li>No external dependencies</li>
+</ul>
+<h2 id="build">Build</h2>
+<h3 id="linux--macos">Linux / macOS</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir build
+</span></span><span style="display:flex;"><span>cd build
+</span></span><span style="display:flex;"><span>cmake ..
+</span></span><span style="display:flex;"><span>make
+</span></span></code></pre></div><h2 id="usage">Usage</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./ccolors image.jpg
+</span></span></code></pre></div><h2 id="output">Output</h2>
+<ul>
+<li>Prints color swatches + hex</li>
+<li>Writes palette.json</li>
+</ul>
+<h2 id="dependencies">Dependencies</h2>
+<ul>
+<li>stb_image.h (included)</li>
+</ul>
+<h2 id="license">License</h2>
+<p>MIT</p>
 
-    
-
-    <ul>
-    
-        <li><a href="https://muwat0.github.io/posts/helo/">helo</a></li>
-
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -103,6 +125,14 @@
 </div>
                 <hr>
                 <div class="aside__content">
+    <p>An application to create color schemes from images written in C&#43;&#43;</p>
+    
+        <p>
+            
+            2026-05-04
+        </p>
+    
+
     
 
                 </div>
@@ -117,8 +147,6 @@
     
       
     
-      
-        
       
     
       
