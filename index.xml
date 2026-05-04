@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>muwat blog</title>
+    <link>https://muwat0.github.io/</link>
+    <description>Recent content on muwat blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 May 2026 21:58:49 +0300</lastBuildDate>
+    <atom:link href="https://muwat0.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fetchit</title>
+      <link>https://muwat0.github.io/projects/fetchit/</link>
+      <pubDate>Mon, 04 May 2026 21:58:49 +0300</pubDate>
+      <guid>https://muwat0.github.io/projects/fetchit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cctype</title>
+      <link>https://muwat0.github.io/projects/cctype/</link>
+      <pubDate>Mon, 04 May 2026 21:58:41 +0300</pubDate>
+      <guid>https://muwat0.github.io/projects/cctype/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://muwat0.github.io/posts/test/</link>
+      <pubDate>Mon, 04 May 2026 21:48:45 +0300</pubDate>
+      <guid>https://muwat0.github.io/posts/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://muwat0.github.io/about/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://muwat0.github.io/about/</guid>
+      <description>&lt;p&gt;about me&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://muwat0.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://muwat0.github.io/archives/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
