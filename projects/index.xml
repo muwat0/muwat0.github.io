@@ -6,21 +6,22 @@
     <description>Recent content in Projects on muwat blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2026 21:58:49 +0300</lastBuildDate>
+    <managingEditor>murat@muwat.org (murat)</managingEditor>
+    <webMaster>murat@muwat.org (murat)</webMaster>
     <atom:link href="https://muwat0.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>fetchit</title>
-      <link>https://muwat0.github.io/projects/fetchit/</link>
-      <pubDate>Mon, 04 May 2026 21:58:49 +0300</pubDate>
-      <guid>https://muwat0.github.io/projects/fetchit/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/muwat0/fetchit&#34;&gt;github&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>ccolors</title>
       <link>https://muwat0.github.io/projects/ccolors/</link>
-      <pubDate>Mon, 04 May 2026 21:58:41 +0300</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
       <guid>https://muwat0.github.io/projects/ccolors/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/muwat0/ccolors&#34;&gt;github&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Small CLI tool to extract dominant color palettes from images.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;JPEG / PNG support&lt;/li&gt;&#xA;&lt;li&gt;Terminal color preview&lt;/li&gt;&#xA;&lt;li&gt;HEX output&lt;/li&gt;&#xA;&lt;li&gt;JSON export&lt;/li&gt;&#xA;&lt;li&gt;No external dependencies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;build&#34;&gt;Build&lt;/h2&gt;&#xA;&lt;h3 id=&#34;linux--macos&#34;&gt;Linux / macOS&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir build&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd build&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmake ..&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;make&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./ccolors image.jpg&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;output&#34;&gt;Output&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Prints color swatches + hex&lt;/li&gt;&#xA;&lt;li&gt;Writes palette.json&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;stb_image.h (included)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;&#xA;&lt;p&gt;MIT&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>fetchit</title>
+      <link>https://muwat0.github.io/projects/fetchit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
+      <guid>https://muwat0.github.io/projects/fetchit/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/muwat0/fetchit&#34;&gt;github&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

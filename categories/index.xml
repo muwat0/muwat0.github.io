@@ -6,6 +6,8 @@
     <description>Recent content in Categories on muwat blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>murat@muwat.org (murat)</managingEditor>
+    <webMaster>murat@muwat.org (murat)</webMaster>
     <atom:link href="https://muwat0.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

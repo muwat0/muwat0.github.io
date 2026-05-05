@@ -6,35 +6,36 @@
     <description>Recent content in links on muwat blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2026 13:12:01 +0300</lastBuildDate>
+    <managingEditor>murat@muwat.org (murat)</managingEditor>
+    <webMaster>murat@muwat.org (murat)</webMaster>
     <atom:link href="https://muwat0.github.io/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English</title>
+      <link>https://muwat0.github.io/links/english/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
+      <guid>https://muwat0.github.io/links/english/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://temidara.rocks/&#34;&gt;temidaradev&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>General</title>
       <link>https://muwat0.github.io/links/general/</link>
-      <pubDate>Tue, 05 May 2026 13:12:01 +0300</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
       <guid>https://muwat0.github.io/links/general/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;wallhaven&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;wallhaven&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Russian</title>
       <link>https://muwat0.github.io/links/russian/</link>
-      <pubDate>Tue, 05 May 2026 13:09:34 +0300</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
       <guid>https://muwat0.github.io/links/russian/</guid>
       <description>&lt;p&gt;&lt;strong&gt;у меня нет ссылки, чтобы поделиться. если у вас есть, пожалуйста, напишите мне!&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Turkish</title>
       <link>https://muwat0.github.io/links/turkish/</link>
-      <pubDate>Tue, 05 May 2026 13:09:24 +0300</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
       <guid>https://muwat0.github.io/links/turkish/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://yusufipek.me/&#34;&gt;yusufipek&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>English</title>
-      <link>https://muwat0.github.io/links/english/</link>
-      <pubDate>Tue, 05 May 2026 13:09:14 +0300</pubDate>
-      <guid>https://muwat0.github.io/links/english/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://temidara.rocks/&#34;&gt;temidaradev&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://yusufipek.me/&#34;&gt;yusufipek&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
