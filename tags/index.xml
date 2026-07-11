@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on muwat blog</title>
-    <link>https://muwat0.github.io/tags/</link>
-    <description>Recent content in Tags on muwat blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>murat@muwat.org (murat)</managingEditor>
-    <webMaster>murat@muwat.org (murat)</webMaster>
-    <atom:link href="https://muwat0.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Tags on muwat blog</title>
+		<link>https://muwat0.github.io/tags/</link>
+		<description>Recent content in Tags on muwat blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+			<managingEditor>murat@muwat.org (murat)</managingEditor>
+		
+		
+			<webMaster>murat@muwat.org (murat)</webMaster>
+		
+		
+		
+			<lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://muwat0.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Blog</title>
+				<link>https://muwat0.github.io/tags/blog/</link>
+				<pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
+				<guid>https://muwat0.github.io/tags/blog/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
