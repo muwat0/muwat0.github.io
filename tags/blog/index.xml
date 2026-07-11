@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blog on muwat blog</title>
+		<link>https://muwat0.github.io/tags/blog/</link>
+		<description>Recent content in Blog on muwat blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+			<managingEditor>murat@muwat.org (murat)</managingEditor>
+		
+		
+			<webMaster>murat@muwat.org (murat)</webMaster>
+		
+		
+		
+			<lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://muwat0.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>qmk keyboard</title>
+				<link>https://muwat0.github.io/posts/qmk/</link>
+				<pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate><author>murat@muwat.org (murat)</author>
+				<guid>https://muwat0.github.io/posts/qmk/</guid>
+				<description>&lt;p&gt;I didn&amp;rsquo;t know my keyboard (Glorious GMMK 2 96% ISO) supports QMK firmware. I didn&amp;rsquo;t even hear about QMK while buying this keyboard back then. A couple days ago, while mindlessly scrolling YT videos, I saw a video about home row mods. I&amp;rsquo;ve heard about that in the past and always thought this thing is doable by only using custom open motherboards and self-built microcontroller keyboards. I&amp;rsquo;m too dumb so I didn&amp;rsquo;t realize my keyboard is a prebuilt custom keyboard. So turns out my keyboard supports QMK.&#xA;I began exploring QMK. I had a couple issues with QMK Linux dependencies (Arch Linux Python pip env related problems) and fixed them by just installing packages with sudo.&#xA;&lt;img src=&#34;https://muwat0.github.io/images/fkitmacrowave.gif&#34; alt=&#34;fuck it&#34;&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

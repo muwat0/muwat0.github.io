@@ -7,10 +7,34 @@
         <language>en-us</language>
         <managingEditor>murat@muwat.org (murat)</managingEditor>
         <webMaster>murat@muwat.org (murat)</webMaster>
-        <lastBuildDate>Mon, 04 May 2026 21:48:45 +0300</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
         
         <atom:link href="https://muwat0.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
+        
+        <item>
+            <title>qmk keyboard</title>
+            <link>https://muwat0.github.io/posts/qmk/</link>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+            <author>murat@muwat.org (murat)</author>
+            <guid>https://muwat0.github.io/posts/qmk/</guid>
+            <description>&lt;p&gt;I didn&amp;rsquo;t know my keyboard (Glorious GMMK 2 96% ISO) supports QMK firmware. I didn&amp;rsquo;t even hear about QMK while buying this keyboard back then. A couple days ago, while mindlessly scrolling YT videos, I saw a video about home row mods. I&amp;rsquo;ve heard about that in the past and always thought this thing is doable by only using custom open motherboards and self-built microcontroller keyboards. I&amp;rsquo;m too dumb so I didn&amp;rsquo;t realize my keyboard is a prebuilt custom keyboard. So turns out my keyboard supports QMK.
+I began exploring QMK. I had a couple issues with QMK Linux dependencies (Arch Linux Python pip env related problems) and fixed them by just installing packages with sudo.
+&lt;img src=&#34;https://muwat0.github.io/images/fkitmacrowave.gif&#34; alt=&#34;fuck it&#34;&gt;&lt;/p&gt;
+&lt;p&gt;But Glorious&amp;rsquo;s fork was old and Arch Linux&amp;rsquo;s Python is new so there was a deprecated function error. And I fixed it by doing what all of the best programmers do: Used an AI agent.
+Fixed it with just 4 characters of change and idfc about it now.
+&lt;img src=&#34;https://muwat0.github.io/images/vibecoding.png&#34; alt=&#34;vibe coding&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I saw that Glorious has their own fork of QMK firmware. Cloned it and set up the env by just following the tutorial &lt;a href=&#34;https://www.gloriousgaming.com/blogs/guides-resources/gmmk-2-qmk-installation-guide&#34;&gt;(blog post ig)&lt;/a&gt; created my own copy of layout and started customising it.
+My first customisation was obviously home row mods as I got the idea from yt video.
+After using the mod-tap method to rebind home row keys, I noticed it had a timing problem with key press-hold delay. So an AI agent made a config for increasing that delay and it worked perfectly fine. (don&amp;rsquo;t yell at me I read the fucking documentation for over 3 hours, tried dozens of parameters can&amp;rsquo;t figure it out)
+After that mod I made my second customisation. Which is the best rebind everybody should and can do: &lt;strong&gt;caps lock&lt;/strong&gt; to &lt;strong&gt;escape&lt;/strong&gt; binding. I&amp;rsquo;ve been using this remap for over 3 years now and I&amp;rsquo;ve never looked back. In the past I was doing this remap by using KDE Plasma settings, Hyprland config, Niri xkb keyboard config.
+OS or WM/DE level re-bindings are fine. But keyboard level re-bindings are god level.&lt;/p&gt;
+&lt;p&gt;After that I&amp;rsquo;ve done my third customisation for screen brightness keys. By default there were 2 layers and you can access the second layer by pressing and holding the &lt;code&gt;fn&lt;/code&gt; key. I chose &lt;strong&gt;a&lt;/strong&gt; and &lt;strong&gt;s&lt;/strong&gt; keys for brightness down and up.&lt;/p&gt;
+&lt;p&gt;My fourth customisation was easy to access numbers. Yes regular number position is not that hard to access but not the easiest. So I placed them on top of home row keys (q to p keys). and rebind left alt key hold to layer 3 access as I don&amp;rsquo;t use that key for alt.&lt;/p&gt;
+&lt;p&gt;Originally that was it. I had accomplished all my shortcut/remap goals.
+But after 15 minutes, I figured something out: I can&amp;rsquo;t use WASD to play games with my keyboard. But &lt;em&gt;no problemo&lt;/em&gt;. Just remapped right alt key press to toggle activate layer 4 and replaced all regular keys with defaults. Whenever I need to press and hold WASD or any other regular character keys, I just toggle layer 4 by pressing right alt.&lt;/p&gt;
+</description>
+        </item>
         
         <item>
             <title>helo</title>

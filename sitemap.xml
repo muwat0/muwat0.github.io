@@ -3,12 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://muwat0.github.io/</loc>
-    <lastmod>2026-05-04T21:48:45+03:00</lastmod>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://muwat0.github.io/posts/helo/</loc>
-    <lastmod>2026-05-04T21:48:45+03:00</lastmod>
+    <loc>https://muwat0.github.io/tags/blog/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://muwat0.github.io/posts/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://muwat0.github.io/posts/qmk/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://muwat0.github.io/tags/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://muwat0.github.io/posts/helo/</loc>
     <lastmod>2026-05-04T21:48:45+03:00</lastmod>
   </url><url>
     <loc>https://muwat0.github.io/about/</loc>
@@ -32,8 +41,6 @@
     <loc>https://muwat0.github.io/projects/</loc>
   </url><url>
     <loc>https://muwat0.github.io/links/russian/</loc>
-  </url><url>
-    <loc>https://muwat0.github.io/tags/</loc>
   </url><url>
     <loc>https://muwat0.github.io/links/turkish/</loc>
   </url>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><title>qmk keyboard &ndash; muwat blog</title>
+<meta name="description" content="backend developer &amp; software development student">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://muwat0.github.io/css/palettes/gruvbox-dark.css">
+<link rel="stylesheet" href="https://muwat0.github.io/css/risotto.css">
+<link rel="stylesheet" href="https://muwat0.github.io/css/custom.css">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="qmk keyboard &ndash; muwat blog" />
+<meta property="og:url" content="https://muwat0.github.io/posts/qmk/" />
+
+  
+    <meta property="og:description" content="backend developer &amp; software development student"/> 
+  
+
+<meta property="og:locale" content="en-us" />
+<meta property="og:image" content="" /></head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="https://muwat0.github.io/" class="page__logo-inner">muwat blog</a></h1></li>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://muwat0.github.io/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://muwat0.github.io/links/" title="links">links</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="https://muwat0.github.io/posts/" title="posts">posts</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://muwat0.github.io/projects/" title="Projects">Projects</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>qmk keyboard</h1>
+    </header>
+    <div class="content__body">
+        <p>I didn&rsquo;t know my keyboard (Glorious GMMK 2 96% ISO) supports QMK firmware. I didn&rsquo;t even hear about QMK while buying this keyboard back then. A couple days ago, while mindlessly scrolling YT videos, I saw a video about home row mods. I&rsquo;ve heard about that in the past and always thought this thing is doable by only using custom open motherboards and self-built microcontroller keyboards. I&rsquo;m too dumb so I didn&rsquo;t realize my keyboard is a prebuilt custom keyboard. So turns out my keyboard supports QMK.
+I began exploring QMK. I had a couple issues with QMK Linux dependencies (Arch Linux Python pip env related problems) and fixed them by just installing packages with sudo.
+<img src="/images/fkitmacrowave.gif" alt="fuck it"></p>
+<p>But Glorious&rsquo;s fork was old and Arch Linux&rsquo;s Python is new so there was a deprecated function error. And I fixed it by doing what all of the best programmers do: Used an AI agent.
+Fixed it with just 4 characters of change and idfc about it now.
+<img src="/images/vibecoding.png" alt="vibe coding"></p>
+<p>I saw that Glorious has their own fork of QMK firmware. Cloned it and set up the env by just following the tutorial <a href="https://www.gloriousgaming.com/blogs/guides-resources/gmmk-2-qmk-installation-guide">(blog post ig)</a> created my own copy of layout and started customising it.
+My first customisation was obviously home row mods as I got the idea from yt video.
+After using the mod-tap method to rebind home row keys, I noticed it had a timing problem with key press-hold delay. So an AI agent made a config for increasing that delay and it worked perfectly fine. (don&rsquo;t yell at me I read the fucking documentation for over 3 hours, tried dozens of parameters can&rsquo;t figure it out)
+After that mod I made my second customisation. Which is the best rebind everybody should and can do: <strong>caps lock</strong> to <strong>escape</strong> binding. I&rsquo;ve been using this remap for over 3 years now and I&rsquo;ve never looked back. In the past I was doing this remap by using KDE Plasma settings, Hyprland config, Niri xkb keyboard config.
+OS or WM/DE level re-bindings are fine. But keyboard level re-bindings are god level.</p>
+<p>After that I&rsquo;ve done my third customisation for screen brightness keys. By default there were 2 layers and you can access the second layer by pressing and holding the <code>fn</code> key. I chose <strong>a</strong> and <strong>s</strong> keys for brightness down and up.</p>
+<p>My fourth customisation was easy to access numbers. Yes regular number position is not that hard to access but not the easiest. So I placed them on top of home row keys (q to p keys). and rebind left alt key hold to layer 3 access as I don&rsquo;t use that key for alt.</p>
+<p>Originally that was it. I had accomplished all my shortcut/remap goals.
+But after 15 minutes, I figured something out: I can&rsquo;t use WASD to play games with my keyboard. But <em>no problemo</em>. Just remapped right alt key press to toggle activate layer 4 and replaced all regular keys with defaults. Whenever I need to press and hold WASD or any other regular character keys, I just toggle layer 4 by pressing right alt.</p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <span class="about__logo" role="img">🗨️</span>&nbsp;
+    
+<h1 class="about__title">muwat blog</h1>
+<p class="about__description">backend developer &amp; software development student</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/muwat0" rel="me" aria-label="github" title="github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://git.muwat.org/murat" rel="me" aria-label="gitea (self-hosted)" title="gitea (self-hosted)"><i class="fa-brands fa-git-alt" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:murat@muwat.org" rel="me" aria-label="email" title="email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+            By muwat, 
+            2026-07-09
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>
